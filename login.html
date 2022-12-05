@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style> * {
+    box-sizing: border-box;
+  }
+  
+  header{ float:left;
+    padding: 20px;
+    width: 70%;
+    background-color: #ff0000;
+    height: 200px;}
+    nav{color:aqua;
+        float:right;
+        width:30%;
+        padding:10px;
+        background-color: rgb(255, 252, 240);
+       height:200px;}
+       body{background-color: blue;
+            border:5px;
+            border-color:antiquewhite;
+            margin-top:10px ;}
+            section:after {
+    content: "";
+    display: table;
+    clear: both;}
+    @media (max-width: 600px) {
+    nav, header {
+      width: 100%;
+      height: auto;
+    }
+  }  </style>
+ <fieldset>
+  <legend>Registration Form</legend>
+  <form action="">
+      <div>
+          <label for="">First name</label>
+          <input type="text" name="FIRST NAME" placeholder=" input first name">
+      </div>
+      <div>
+          <label for="">Last name</label>
+          <input type="text" name="last name" placeholder="enter your last name" value=>
+      </div>
+      <div>
+          <label for=""> Age</label>
+          <input type="number" name="age" placeholder="enter your age" max="100000000" min="10">
+      </div>
+      <div>
+          <label for="">DOB</label>
+          <input type="datetime-local" name="date" placeholder="date/time">
+      </div>
+      <div>
+          <label for="">Password</label>
+          <input type="password" name="password" placeholder="create password">
+      </div>
+      <div>
+          <label for="">Email</label>
+          <input type="email" name="email address" placeholder=" enter your email">
+      </div>
+      <div>
+          <textarea name="text area" id="" cols="60" rows="10"></textarea>
+      </div>
+      <div>
+          <!--input type of select-->
+          <label for=""><b>Country</b></label> <select>
+              <option value="Nigeria">Nigeria</option>
+              <option value="Ghana" selected>Ghana</option>
+              <option value="South africa">South africa</option>
+          </select>
+      </div>
+      <div>
+          <!--iput type of radion is useful in selecting gender-->
+          <label for=""><b>Gender</b></label> <br>
+          <!--always remember to put name and if you want single pick give it the same name -->
+          Male<input type="radio" name="gender" value="male">
+          Female<input type="radio" name="gender" value="female">
+          Non-binary<input type="radio" name="gender" value="non-binary">
+      </div>
+      <div>
+          <label for=""><b>Hobby</b></label><br>
+          football <input type="radio" name="fb" value="fb">
+          basketball<input type="radio" name="bb" value="bb">
+          swimming<input type="radio" name="sw" value="sw">
+          art<input type="radio" name="ar" value="ar">
+          cooking<input type="radio" name="ck" value="ck">
+          tennis<input type="radio" name="tn" value="tn">
+          golf <input type="radio" name="gf" value="gf">
+          video game <input type="radio" name="vg" value="vg">
+      </div>
+      Choose a photograph<input type="file" name="photo"> <br>
+      <!--use accept="image" to specify what type of file to selct-->
+      <input type="reset">
+      <button type="submit">submit</button>
+
+  </form>
+</fieldset>
+
+</body>
+</html>

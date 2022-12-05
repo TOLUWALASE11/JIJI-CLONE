@@ -1,0 +1,43 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background-color:orchid
+ }
+header{
+    background-color: transparent;
+    min-height: 70px;
+    color: #0c0415;
+}
+#logo{
+    border:dotted;
+    width: 120px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 45px;
+    float: left;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
+nav ul a{
+    float: right;
+    margin-top: 45px;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    color: #0c0415;
+}
+.highlighted{
+    border-radius: 20px;
+    background-color: antiquewhite;
+    width: 45px;
+    text-align: center;
+    padding: 0px 5px;
+}

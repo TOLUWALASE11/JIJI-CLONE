@@ -1,0 +1,20 @@
+/*to use the variable property value you need to input a :root selector to access the base html it must begin with--*/ 
+:root{
+    --div-background-color: red;
+    --text-color: black;
+    --div-margin: 1rem;
+    --div-padding: 1rem;
+}
+.child{background-color: var(--div-background-color);
+      }
+/*var it helps to store data, value selector serves as a an easy way to assign same property values to a large amount of elements in css*/
+ .one{--div-background-color: blue;}
+/*the values can also be directly overwritten to match the needs  of the specific element !! numbers arent recognised as classes*/
+.one{position: relative;}
+.dropmenu{display: none;
+         position: absolute;
+         top:(100%+0.25rem);
+        box-shadow: 0 5px 5px rgba(0, 0,0,0.2);
+         border-radius: 5px;}
+.one:hover .dropmenu{display: block;
+                    opacity: 1;}         

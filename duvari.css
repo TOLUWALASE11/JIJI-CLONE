@@ -1,0 +1,33 @@
+/* margin :0; */
+/* padding :0;
+box-sizing :border-box;
+overflow :visible */
+body {
+    background-color: lightblue;
+  }
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 0 rem;
+    height: 13 vh;
+    box-shadow:2px 0 2px blue;
+    background-color: blue;
+}
+.logo {
+    width: 7vw;
+    height: 12vh;
+    flex-shrink: 0;
+    object-fit: contain;
+    margin: 1rem 1rem;
+}
+.links li {
+    color: #fff;
+    list-style-type: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}

@@ -1,0 +1,220 @@
+display deals with the visibility of elements.
+there are two types of display which are block inline and grid.
+<style !important>
+        body {
+            background-color: #eba;
+        }
+
+        h1 {
+            color: aliceblue;
+            font-style: italic;
+            font-family: 'Segoe UI';
+            background-color: #0074E4;
+        }
+
+        small {
+            font-size: xx-large;
+        }
+    </style>
+    common units for measurement in css
+    text
+    1 px:it is the oldest but has responsiveness issues
+    2 rem:rem is preferable to em. As it is more responsive.1rem=16px
+    3 em : it calculates the root of the screen.
+    elements
+    4 %: in relation to the entire screen
+    5 viewport(vh,vw):
+    <div class="block">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <p><strong>DISPLAY:INLINE it displays the element within a generic container in a straight line,even if the element
+            is a block element</strong></p>
+    <div class="inline">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    img{width:5vw;
+   height:3vw;}
+nav{display: flex;
+   flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: #0012ff;}
+h1{font-size: 4rem;
+  height:5rem;
+  width:100vw;
+  background-color: #0012ff;}
+.block {
+    display: block;
+    background-color:grey;
+    width: auto;
+    border-radius:10px;
+}
+
+.inline { display: inline;
+    background-color:grey);
+    width: auto;
+}
+
+.flex {
+    display: flex;
+    background-color: grey;
+    width: auto;
+    justify-content: space-between;
+}
+
+.flex>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.block>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.inline>div {
+    display: inline;
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+
+.flex1>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: right;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex2 {
+    display: flex;
+    background-color: grey;
+    width: auto;
+    flex-flow: column wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex2>div {
+    background-color: grey;
+    min-width: 100px;
+    margin: 10px;
+    text-align: right;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.none {
+    display: none;
+    background-color: rgb(18, 15, 247);
+    min-width: auto;
+}
+
+.none>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: right;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.hidden {
+    visibility: hidden;
+    background-color: rgb(18, 15, 247);
+    width: auto;
+}
+
+.hidden>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: right;
+    line-height: 75px;
+    font-size: 30px;
+}
+button{width:250px;
+      height:100px;
+    box-shadow: 2px 2px #0012ff;}
+
+    html
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+    
+    <h1>Hello World</h1>
+    <nav>
+        <img src="./images/sadeq-shahsvan-cR0bLCSpGfw-unsplash.jpg" alt="">
+        <a href="./videos/mylivewallpapers.com-Itachi-Sharigan.mp4">something</a>
+    </nav>
+    <p style="color:#0074E4; opacity: 0.5;">LASOP</p>
+    <p><strong>DISPLAY:BLOCk</strong></p>
+    <div class="block">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+   
+    <p><strong>DISPLAY:none</strong></p>********
+    <div class="none">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <p><strong>visibility hidden.</strong></p>
+    <div class="hidden">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <p><strong>DISPLAY:FLEX 
+    <div class="flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <div class="flex1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <div class="flex2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <button onclick="alert('a virus has has been embedded in your system. next time you will listen ;!')">I DARE YOU TO
+        CLICK ME</button>
+</body>
+
+</html>
+            

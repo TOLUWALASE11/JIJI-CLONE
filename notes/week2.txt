@@ -1,0 +1,201 @@
+ <dl>
+          <dt align="center">advantage of coding</dt>  
+          <dd>it generates income</dd>
+          <dd>it helps the brain</dd>
+        </dl>
+         First name<input type="text" name="FIRST NAME" placeholder=" input first name"><br>
+        last name<input type="text" name="last name" placeholder="enter your last name"><br>
+        Age<input type="number" name="age" placeholder="enter your age" max="100" min="10"><br>
+        date<input type="datetime-local" name="date" placeholder="date/time"><br>
+        password <input type="password" name="password" placeholder="create password"><br>
+        email address <input type="email" name="email address" placeholder=" enter your email" >
+
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="" target="_blank">logo</a>
+            <ul>
+                <li><a href="">contact us</a></li>
+                <li><a href="">about us</a></li>
+            </ul>
+
+        </nav>
+        <section class="back">
+            <img src="./images/javier-martinez-hUD0PUczwJQ-unsplash.jpg" alt="something" width="100px" height="100px"
+                rotate="90">
+        </section>
+        <section>
+            <img src="./images/sadeq-shahsvan-cR0bLCSpGfw-unsplash.jpg" width="100%" height="500px" alt="">
+        </section>
+    </header>
+
+    <main>
+
+        <!-- this is category section-->
+        <section class="category"></section>>
+        <form action="">
+        </form>
+        </section>
+        <section class="subscribe"></section>
+        <section class="register">
+            <fieldset>
+                <legend>Registration Form</legend>
+                <form action="">
+                    <div>
+                        <label for="">First name</label>
+                        <input type="text" name="FIRST NAME" placeholder=" input first name">
+                    </div>
+                    <div>
+                        <label for="">Last name</label>
+                        <input type="text" name="last name" placeholder="enter your last name" value=>
+                    </div>
+                    <div>
+                        <label for=""> Age</label>
+                        <input type="number" name="age" placeholder="enter your age" max="100000000" min="10">
+                    </div>
+                    <div>
+                        <label for="">DOB</label>
+                        <input type="datetime-local" name="date" placeholder="date/time">
+                    </div>
+                    <div>
+                        <label for="">Password</label>
+                        <input type="password" name="password" placeholder="create password">
+                    </div>
+                    <div>
+                        <label for="">Email</label>
+                        <input type="email" name="email address" placeholder=" enter your email">
+                    </div>
+                    <div>
+                        <textarea name="text area" id="" cols="60" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <!--input type of select-->
+                        <label for=""><b>Country</b></label> <select>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Ghana" selected>Ghana</option>
+                            <option value="South africa">South africa</option>
+                        </select>
+                    </div>
+                    <div>
+                        <!--iput type of radion is useful in selecting gender-->
+                        <label for=""><b>Gender</b></label> <br>
+                        <!--always remember to put name and if you want single pick give it the same name -->
+                        Male<input type="radio" name="gender" value="male">
+                        Female<input type="radio" name="gender" value="female">
+                        Non-binary<input type="radio" name="gender" value="non-binary">
+                    </div>
+                    <div>
+                        <label for=""><b>Hobby</b></label><br>
+                        football <input type="radio" name="fb" value="fb">
+                        basketball<input type="radio" name="bb" value="bb">
+                        swimming<input type="radio" name="sw" value="sw">
+                        art<input type="radio" name="ar" value="ar">
+                        cooking<input type="radio" name="ck" value="ck">
+                        tennis<input type="radio" name="tn" value="tn">
+                        golf <input type="radio" name="gf" value="gf">
+                        video game <input type="radio" name="vg" value="vg">
+                    </div>
+                    Choose a photograph<input type="file" name="photo"> <br>
+                    <!--use accept="image" to specify what type of file to selct-->
+                    <input type="reset">
+                    <button type="submit">submit</button>
+
+                </form>
+            </fieldset>
+        </section>
+        <!--how to beautify a form with field set and legend-->
+        <section class="ibot">
+            <table>
+            <thead>
+                 <tr>
+                <th>S/N</th>
+                <th>Name</th>
+                <th>Sign in</th>
+                <th>Sign out</th>
+                <th colspan="2">IDnumber</th>
+                <th>Email address</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+               <td>1</td>
+                <td>Yusuf</td>
+                <td><input type="time" name="signin1" id=""></td>
+                <td><input type="time" name="signout1" id=""></td>
+                <td colspan="2"><input type="text" name="idno"></td>
+                <td>yyusjimo@gmail.com</td>
+            </tr>
+            <tr>
+               <td>2</td>
+                <td>Tobi</td>
+                <td><input type="time" name="signin" id=""></td>
+                <td><input type="time" name="signout" id=""></td>
+                <td colspan="2"><input type="text" name="idno"></td>
+            <td>tobiadek@gmail.com</td>
+            </tr>
+            <td>3</td>
+                <td>Pascal</td>
+                <td><input type="time" name="signin1" id=""></td>
+                <td><input type="time" name="signout1" id=""></td>
+                <td colspan="2"><input type="text" name="idno"></td>
+                <td>pascaline@gmail.com</td>
+        </tr>
+        <tr>
+            <td>4</td>
+             <td>Dami</td>
+             <td><input type="time" name="signin1" id=""></td>
+             <td><input type="time" name="signout1" id=""></td>
+             <td colspan="2"><input type="text" name="idno"></td>
+             <td>daminami@gmail.com</td>
+         </tr>
+            </tbody>
+            <tfoot>
+        
+            </tfoot>
+            </table>
+
+        </section>
+    </main>
+    <footer>
+        <p align="center">copyright of <a href="https://facebook.com" target="_blank">oluwatobi adeunle</a><i
+                class="fa-solid fa-car"></i><i class="fa-regular fa-hand"></i> 2022</p>
+    </footer>
+</body>
+
+</html>
+body{background-color: rgb(206, 232, 255);}
+fieldset{color: rgb(0, 0, 0);}
+nav {
+    float: right;
+    width: 90%;
+    background-color: bisque;
+    height: 105px;
+}
+nav{text-decoration: underline;}
+.back {
+    float: right;
+    width: 10%;
+    background-color: rgb(0, 0, 0);
+}
+
+.register {
+    background-color: aliceblue;
+}
+table,tr,thead{border:3px solid rgb(247, 181, 1);
+    border-collapse: collapse;
+    background-color: aliceblue;
+    padding: 15px;
+    border-spacing: 10px;}

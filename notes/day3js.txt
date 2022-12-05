@@ -1,0 +1,97 @@
+// operations in javascript
+
+var person1 = {
+    fname: "yusuf",
+    lname: "jimoh",
+    skin: "black",
+    savings: 20000,
+}
+
+
+var person2 = {
+    fname: "prince",
+    lname: "ebuka",
+    skin: "fair"
+}
+
+var numberarray = [ 123, 341, 32, 63, 74, 5, 6, 7, 8, 9, 10]
+
+var alphabeth =["a", "b", "c", "d" , "e"]
+
+var animal = {
+    domestic:"snail",
+    wild :"bermuda python",
+    cute : "puppy"
+}
+
+
+var registeruser = [
+    {fname: "sola", lname:"awolumate", email: "a@b.com", password:"123dwdg"},
+,    {fname:"yusuf", lname:"jimoh", email:"b@b.com" , password: "fyughuihjk"},
+]
+
+
+person1.savings = person1.savings + 10000
+
+console.log(person1.fname + ", your account balance is now = " + person1.savings)
+
+numberarray.map((returnitem) => {
+console.log("the number is " + returnitem)
+})
+
+
+
+ 
+
+ for (var i=1; i<=50; i+=2) {
+    console.log(i);
+ }
+
+ 
+
+
+
+ var result =59;
+
+ if(result  >=75){
+    alert("A");
+
+ }else if(result < 75 && result >=60){
+    alert("B");
+
+ }else if(result < 60 && result >=50){
+    alert("C")
+
+ }else if (result < 49 && result >=40){
+    alert("D")
+
+ }else if (result <39 && result >=0){ 
+    alert("E")
+ }
+
+    var day = 2
+
+    switch(day){
+
+        case 1:
+            alert("sunday");
+        case 2:
+            alert("monday");
+        case 3:
+            alert("tuesday");
+            break;
+
+            default:
+                alert("i dont the day,please dont kill me")
+    }
+
+
+
+    let = drivingage>18
+    if(drivingage  >=18){
+        alert('can drive');
+    }elseif(driving<18){
+        alert('cannot drive');
+    
+    
+}

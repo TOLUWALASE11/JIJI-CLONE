@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ibot games</title>
+</head>
+<!--start of my webpage-->
+<body style="background-color:#7aaef3;margin-top:0px;margin-left:0px;">
+    <hr>
+   
+    <h1 style="color:aliceblue">HELLO WORLD</h1>
+    <h2><i> HELLO WORLD</i></h2>
+    <H3>HELLO WORLD</H3>
+    <H4>HELLO WORLD</H4>
+    <i> hello world</i><br>
+    <p><b><i>welcome to <u>ibot games</u></i></b></p>
+    <p>i want to <sup>superscript</sup> superscript</p>
+    <p>i want to <sub>subscript</sub> subscript</p>
+    <p>what a beautiful <mark>day</mark> to be using <mark style="background: #ffffff!important">mark</mark></p>
+<p> <mark>ignore the cancelled text</mark>  <del> ejenfnwjd jjninnfd</del></p>
+ <ins>dont cry over spilled milk</ins></p>
+ <address> 20 olowoira lagos nigeria</address>
+ <blockquote>
+  <small> Lorem ipsum dolor sit amet consectetur adipisicing elit. A deserunt facilis laudantium ducimus cupiditate modi error sequi, dolore nihil dolor ipsum fugit ex rem quam fugiat odit maiores quasi </small> he who lives in a glass house should not throw stones
+ <cite>master oogway</cite>
+ </blockquote>
+ <em>another means of using italics</em><br>
+<strong> this is an alternative to element b</strong>
+ <marquee behavior="smooth" direction="down" style="color:aliceblue">this is a white marquee going down</marquee>
+ <marquee behavior="smooth" direction="up" style="color:aliceblue">this is a white marquee going up</marquee>
+ <marquee behavior="smooth" direction="right" style="color:aliceblue">this is a white marquee going right</marquee>
+ <marquee behavior="smooth" direction="left" style="color:aliceblue">this is a white marquee going left</marquee>
+<button >download </button><br>
+<img src="" alt="">
+<audio src=""></audio>
+<video src=""></video>  
+<nav>
+<a href="./about us.html" target="_blank">about us</a>
+ <a href="./login.html">login</a>
+ <a href="./contact us.html">contact us</a>
+ <a href="./register.html">register</a> 
+
+body{background-color: rgb(226, 169, 82);
+        border: 10px;
+        border-color: brown;}
+        <style>
+    nav{float: left;
+       width: 30%;
+       background-color: bisque;
+       height: 100px;}
+       .back{float: left;
+            width: 70%;
+             background-color: blanchedalmond;}
+    
+    .register{background-color: aliceblue;}
+
+</style>
+
+</nav>
+</body>
+</html>

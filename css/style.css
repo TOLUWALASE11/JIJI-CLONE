@@ -1,0 +1,140 @@
+*{margin: 0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+
+#background{
+
+
+
+    /* background-image: url('../images/ClearEmerald.png'); */
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url('../images/ClearEmerald.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align:center;
+
+ }
+
+
+
+ #background h1{
+    color: red;
+    font-size: 2.5em;
+ }
+ #background p{
+     font-size: 30px;
+     color: white;
+
+ }
+ .small{
+    font-size: 10px;
+    font-style: italic;
+ }
+.box{
+    border: 1px; color: rgb(195, 29, 29);
+    width: 200px;
+    height: 200px;
+  /*  margin-left: 200px;
+    margin-top: 100pxpx;*/
+
+    /* margin:200px 300px;*/
+    /* margin200px 100px 200px 300px; */
+    padding-left: 100px;
+    overflow: hidden;
+}
+
+
+
+header{
+    background-color: #592600;
+    min-height: 70px;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+#logo img{
+    width: 100px;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+}
+
+    
+nav ul li{
+    display: inline;
+    padding: 20px 20px 0 20px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+    /* padding: 20px; */
+}
+
+
+nav ul li a{
+    text-transform: uppercase;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover{
+    color: orangered;
+}
+
+.active{
+    border-bottom: 2px solid orangered  ;
+    /* width:10px */
+}
+#social p{
+    font-size: 25px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+#social a{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: orange;
+}
+#cardblock{
+    background-color: #e5e5e5;
+    margin-top: 50px;
+}
+.card{
+    width: 300px;
+    text-align: center;
+    color: #592600;
+    box-shadow: 5px 6px 7px rgba(0,0,0,.5);
+    border-radius: 5px;
+
+}
+
+.card img{
+    width: 100%;
+}
+.card{
+    margin-bottom: 10px;
+}
+.card button{
+    color: white;
+    background-color: #592600;
+    margin-bottom: 10px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    box-shadow: 5px 6px 7px rgba(0,0,0,.5);
+}
+.cards{
+    display: flex;
+    margin: 50px 50px 20px 50px;
+    float: left;
+}
+

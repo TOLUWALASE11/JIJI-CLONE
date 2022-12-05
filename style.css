@@ -1,0 +1,290 @@
+:root {
+    --greencolor: #34325f;
+}
+
+* {
+    margin: 0;
+    /*always remember to add the universal selector with these properties to reset all default properties and create new ones. it also helps control expansion when adding padding or margin or border*/
+    padding: 0;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3DB83A;
+    height: 15vh;
+    margin-bottom: 0rem;
+    box-shadow: 0rem 0rem 0rem #ffda10;
+
+}
+
+.market .bare {
+    color: #3DB83A;
+}
+
+/*box shadow has 4 parameters width height block and color. block determines the concentration
+/*pseudo selectors are used for selecting specific element without the stress of assignining class it can also be used to format links*/
+main {
+    display: flex
+}
+
+main aside div i {
+    float: right;
+
+}
+
+main aside {
+    background-color: #fff;
+    box-shadow: 5px 0 1px #999;
+    margin: 2px;
+    flex: 1;
+    width: 15%;
+}
+
+main aside div {
+    font-size: 1rem;
+    font-family: cursive;
+    margin: 0.5rem 0.4rem;
+}
+
+main aside div:hover {
+    background-color: #f3f3f3;
+    padding: 0.5rem;
+}
+
+.market {
+    display: flex;
+    flex: 2.5;
+    width: 74%;
+    background-color: #999;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: contain;
+    flex-flow: row wrap;
+    overflow: auto;
+    height: 60vh;
+
+}
+
+.logo {
+    width: 7vw;
+    height: 12vh;
+    flex-shrink: 0;
+    object-fit: contain;
+    margin: 1rem 1rem;
+}
+.mar
+ket div {
+    background-color: #f1f1f1;
+    min-width: 17vw;
+    margin: 1px;
+    text-align: left;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    min-height: 20vh;
+    font-weight: lighter;
+
+}
+
+.market div:hover {
+    padding: 0.1rem;
+}
+
+.market div img {
+    width: 25vh;
+    height: 20vh;
+}
+
+
+.links li {
+    color: #fff;
+    list-style-type: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+
+.links button {
+    background-color: #ffa010;
+    outline: #ffa010;
+    border-color: #ffa010;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 0.3rem;
+    border-style: solid;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+ul>a {
+    color: #fff;
+    text-decoration: solid;
+}
+
+.shine a:hover {
+    background-color: #ffa010;
+}
+
+.shine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.body {
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+.searchbar {
+    background-color: #3A9F20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0.5;
+}
+
+.searchbar:first-child {
+    object-fit: contain;
+    height: fit-content;
+    width: fit-content;
+}
+
+.foc {
+    background-color: #000;
+    color: #fff;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.foc:hover {
+    opacity: 1;
+}
+
+div>img {
+    height: 16.5rem;
+    margin: 1rem 1rem;
+}
+
+.fo {
+    width: 25rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+
+.fo:active {
+    outline: none;
+    border: 2px;
+    ;
+}
+
+.five {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.five .fa-solid {
+    color: #3A9F20;
+    background-color: #fff;
+    font-size: x-large;
+
+}
+
+.five .fa-solid:hover {
+    color: #ffa010;
+}
+
+.me {
+    color: #000;
+    font-size: 1.0rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+select[name="NIGERIA"] {
+    height: 1.5rem;
+    width: 7.0rem;
+    color: #fff;
+    background-color: #000;
+}
+
+.body {
+    background-color: #EEF2F4;
+    display: flex;
+}
+
+img[alt="bad"] {
+    width: 100vw;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 0 0 0 0rem;
+}
+
+footer {
+    background-color: #3DB83A;
+}
+
+body {
+    width: 99vw;
+}
+i[id="test"]{
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 0px;
+background-color:#EEF2F4;
+color: #3DB83A;
+position: relative;
+bottom: 60px;
+left: 150px;
+font-weight: lighter;
+line-height: 0px;
+text-align: center;}
+/* media query for xs screen */
+
+
+.formbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.input{
+    width:100%;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+form div{
+    margin-bottom: 1rem;
+}
+form button{
+    width:100%;
+    background-color: #303a4b;
+    color: #fff;
+    padding: o.3rem 0;
+}
+form button:hover{
+    background-color: #3031ff;
+}
